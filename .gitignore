@@ -1,0 +1,12 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# OpenStack provider specific
+# (Add any additional sensitive files if needed, e.g., clouds.yaml if not using env vars)
+
+# General ignores
+.DS_Store
+*.log
